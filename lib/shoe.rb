@@ -13,12 +13,13 @@ class Shoe
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
+    binding.pry
   end
   
   def brand=(brand)
     @brand = brand
     BRANDS << brand
-    binding.pry
+    
   end 
   
 
